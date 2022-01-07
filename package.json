@@ -1,0 +1,24 @@
+{
+  "name": "live-comment",
+  "version": "1.0.0",
+  "description": "retrieve comment from facebook's live or any we want. Just communication with facebook",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha './test/*/*.js' --recursive --timeout 5000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NunChatSpace/live-comment.git"
+  },
+  "author": "Nun Chatchawan and Friends",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NunChatSpace/live-comment/issues"
+  },
+  "homepage": "https://github.com/NunChatSpace/live-comment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
